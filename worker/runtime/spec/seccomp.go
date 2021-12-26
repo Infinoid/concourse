@@ -46,6 +46,7 @@ var seccomp = &specs.LinuxSeccomp{
 		AllowSyscall("exit"),
 		AllowSyscall("exit_group"),
 		AllowSyscall("faccessat"),
+		AllowSyscall("faccessat2"),
 		AllowSyscall("fadvise64"),
 		AllowSyscall("fadvise64_64"),
 		AllowSyscall("fallocate"),
